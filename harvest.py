@@ -23,7 +23,7 @@ class MelonType(object):
         """Add a food pairing to the instance's pairings list."""
         # use this function to populate list of self.pairings
         # self.pairs = pairing
-        self.pairings = pairing
+        self.pairings = self.pairings + pairing
         #self.pairings.append(pairing)
         # print(self.pairing)
         # print(self.pairs)
